@@ -59,10 +59,8 @@ dependencies {
 
     // Retrofit
     implementation(libs.retrofit)
-    //implementation(libs.converter.scalars)
     implementation(libs.retrofit.logging.interceptor)
     implementation(libs.retrofit.converter.moshi)
-    // Moshi KSP Code Generator (Use the ksp configuration)
     ksp(libs.moshi.kotlin.codegen)
 
     //Hilt
